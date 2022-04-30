@@ -5,6 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+import { PageTitle } from '@monorepo/iu-header'
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
@@ -418,7 +419,7 @@ export function NxWelcome({ title }: { title: string }) {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome {title} 👋
+              <PageTitle /> 👋
             </h1>
           </div>
 
