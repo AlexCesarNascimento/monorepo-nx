@@ -7,7 +7,8 @@ Utilizamos NX para ter um único repositorio git para gerenciar vários aplicati
 - [x] ​	Introduction: Nx Workspaces Course
 - [x] ​	Create an empty workspace
 - [x] ​	Create an app and a UI library
-- [ ] ​	Add a server API
+- [x] ​	Add a server API
+-------------------------------------
 - [ ] ​	Set up the Board Game Hoard API
 - [ ] ​	Review app in React 
 - [ ] ​	Split the review site into separate libraries
@@ -60,10 +61,16 @@ Após isso vá para a pasta do repositório criado
 
 ## Criando um APPs React/Express e Librays
 
-- adicione um plugin react
+- Plugins
 
+React
 ```
 	npm install -D @nrwl/react
+```
+
+Express
+```
+  npm install -D @nrwl/express
 ```
 
 - agora gere o App react: my-site
@@ -73,4 +80,7 @@ Após isso vá para a pasta do repositório criado
 > Library @nrlw/react
 
 - cria agora um componente para sua lib: page-title *DENTRO DO iu-header*
+> Component @nrlw/react
+
+- cria agora um componente para o --frontendProject=my-site: api *DENTRO DO iu-header*
 > Component @nrlw/react
