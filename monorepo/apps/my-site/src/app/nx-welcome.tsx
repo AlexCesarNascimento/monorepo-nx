@@ -7,12 +7,14 @@
  */
 import { PageTitle } from '@monorepo/iu-header'
 import React, { useState, useEffect} from 'react';
+import { ApiResponse, API_URL} from '@monorepo/api-interface';
 
 export function NxWelcome({ title }: { title: string }) {
-  const [apiResponse, setApiResponse] = useState({message: 'Loading...'});
+  const [apiResponse, setApiResponse] = useState<ApiResponse>({message: 'Loading...'});
 useEffect(() => {
-  fetch('/api').then(r => r.json()).then(setApiResponse);
+  fetch(API_URL).then(r => r.json()).then(setApiResponse);
 }, []);
+
   return (
     <>
       <style
