@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@monorepo/api-interface": ["libs/api-interface/src/index.ts"],
       "@monorepo/iu-header": ["libs/iu-header/src/index.ts"]
     }
   },

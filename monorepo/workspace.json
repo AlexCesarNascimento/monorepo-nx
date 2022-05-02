@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "api-interface": "libs/api-interface",
     "iu-header": "libs/iu-header",
     "my-site": "apps/my-site",
     "my-site-e2e": "apps/my-site-e2e"
